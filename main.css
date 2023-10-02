@@ -1,5 +1,6 @@
 @import url('base.css');
 @import url('box.css');
+@import url('style.css');
 
 body{
     scroll-behavior: smooth;
