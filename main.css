@@ -108,41 +108,6 @@ a.jump:active{
     top: calc(50% - 125px);
 }
 
-#title>.xing{
-    width: 210px;
-    fill: #6c91ee;
-    position: absolute;
-    top: 0;
-    transition: 100ms;
-    opacity: 0;
-    transform: translateY(100px);
-}
-
-#title>.yuan{
-    width: 150px;
-    fill: #79bbdc;
-    position: absolute;
-    top: 10px;
-    left: 140px;
-    transition: 100ms;
-    opacity: 0;
-    transform: none;
-}
-
-#title>.text{
-    line-height: 1;
-    position: absolute;
-    opacity: 0;
-    transition: 200ms;
-    color: #f7f7f7;
-}
-
-#title>.text.chinese{
-    font-size: 40px;
-    line-height: 1;
-    top: 110px;
-    left: 160px;
-}
 
 #title>.text.eng{
     font-size: 20px;
