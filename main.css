@@ -9,20 +9,20 @@ body{
     color: #888;
 }
 
-.box.text{
+.box .text{
     font-size: 90px;
 }
 
-.box.text>*{
+.box .text>*{
     display: inline-block;
     margin: 0;
 }
 
-.text.center{
+.text .center{
     text-align: center;
 }
 
-.box.card{
+.box .card{
     border-radius: 12px;
     /* box-shadow: 5px 5px 10px #0000000f; */
     margin: 8px;
@@ -30,7 +30,7 @@ body{
     padding: 10px 20px;
 }
 
-.box.card>.tit{
+.box .card>.tit{
     font-size: 40px;
     line-height: 1.1;
     font-weight: 500;
@@ -38,7 +38,7 @@ body{
     text-align: start;
 }
 
-.box.card>.tit.center{
+.box .card>.tit.center{
     text-align: center;
 }
 
@@ -122,7 +122,7 @@ a.jump:active{
     border-radius: 17px;
     background: none;
     padding: 4px 7px;
-    margin: 5px 0 0 0;
+    margin: 5px 0 0;
     width: max-content;
     transform: scale(0.97);
     transition: 200ms;
@@ -174,7 +174,7 @@ a.jump:active{
 }
 
 .card p {
-    margin: 5px 0 0 0;
+    margin: 5px 0 0;
 }
 
 .highlight.width:not(.show) {
