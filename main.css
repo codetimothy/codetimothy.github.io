@@ -5,24 +5,31 @@ body{
     scroll-behavior: smooth;
 }
 
+div.threader{
+    background-image:url('https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=sharp&l=text%2Fx-c%2B%2Bsrc&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%2523include%2520%253Costream%253E%250A%2523include%2520%2522threader%2522%250Aint%2520main%28void%29%250A%257B%250A%2520%2520threader%253A%253Athread%28%29%257B%250A%2520%2520%2520%2520std%253A%253Acout%253C%253C%2522This%2520is%2520the%2520thread%2520tool%21%2522%253C%253Cstd%253A%253Aendl%253B%250A%2520%2520%2520%2520typedef%2520long%2520long%2520int%2520QWARD%253B%250A%2520%2520%2520%2520QWARD%2520a%2520%253D%2520114514192%253B%250A%2520%2520%2520%2520std%253Acout%253C%253Ca%253C%253Cstd%253A%253Aendl%253B%250A%2520%2520%257D%250A%2520%2520std%253A%253Acout%253C%253C10%253C%253Cstd%253A%253Aendl%253B%250A%2520%2520return%25200%253B%250A%257D') center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
 .info{
     color: #888;
 }
 
-.box .text{
+.box.text{
     font-size: 90px;
 }
 
-.box .text>*{
+.box.text>*{
     display: inline-block;
     margin: 0;
 }
 
-.text .center{
+.text.center{
     text-align: center;
 }
 
-.box .card{
+.box.card{
     border-radius: 12px;
     /* box-shadow: 5px 5px 10px #0000000f; */
     margin: 8px;
@@ -30,7 +37,7 @@ body{
     padding: 10px 20px;
 }
 
-.box .card>.tit{
+.box.card>.tit{
     font-size: 40px;
     line-height: 1.1;
     font-weight: 500;
@@ -38,7 +45,7 @@ body{
     text-align: start;
 }
 
-.box .card>.tit.center{
+.box.card>.tit.center{
     text-align: center;
 }
 
@@ -122,7 +129,7 @@ a.jump:active{
     border-radius: 17px;
     background: none;
     padding: 4px 7px;
-    margin: 5px 0 0;
+    margin: 5px 0 0 0;
     width: max-content;
     transform: scale(0.97);
     transition: 200ms;
@@ -174,7 +181,7 @@ a.jump:active{
 }
 
 .card p {
-    margin: 5px 0 0;
+    margin: 5px 0 0 0;
 }
 
 .highlight.width:not(.show) {
